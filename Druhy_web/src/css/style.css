@@ -1,0 +1,172 @@
+.container{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 96%;
+}
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: Tahoma;
+}
+
+.hlavniblok{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 228px;
+}
+
+.main-img{
+    margin-top: 160px;
+   
+}
+
+.main-text{
+    margin: 136px 0 0 30px;
+    font-family: Tahoma;
+}
+
+.headline{
+    font-size: 48px;
+color: #000000;
+font-weight: bold;
+margin-bottom: 23px;
+display: block;
+font-family: Tahoma;
+}
+
+.subtitle{
+font-size: 30px;
+color: #000000;
+margin-bottom: 41px;
+display: block;
+font-family: Tahoma;
+}
+
+.desc{
+    font-size: 18px;
+line-height: 27px;
+color: #000000;
+margin-bottom: 50px;
+font-family: Tahoma;
+}
+
+.price{
+    font-size: 48px;
+line-height: 27px;
+color: #313131;
+font-family: Tahoma;
+}
+
+.buttons{
+    margin-top: 66px;
+}
+
+.btn-blue{
+border-radius: 5px;
+background-color: #4572d7;
+border: 1px solid #4572d7;
+font-size: 24px;
+line-height: 27px;
+color: #ffffff;
+font-weight: bold;
+margin-right: 39px;
+padding:25px 66px ;
+text-decoration: none;
+text-align: center;
+font-family: Tahoma;
+}
+
+.btn-white{
+border-radius: 5px;
+background-color: #ffffff;
+border: 2px solid #4572d7;
+padding: 20px 80px;
+text-decoration: none;
+font-size: 24px;
+line-height: 27px;
+color: #4572d7;
+font-weight: bold;
+text-align: center;
+font-family: Tahoma;
+}
+
+.shipping{
+    background-color: #f2f2f2;
+border: 1px solid #ffffff;
+}
+
+.shipping-headline{
+    font-size: 30px;
+line-height: 27px;
+color: #333333;
+font-weight: bold;
+text-align: center;
+margin: 89px 89px;
+font-family: Tahoma;
+}
+
+.about-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 104px;
+}
+
+.about-item{
+    align-items: center;
+}
+
+.desc-kosik, .desc-kreditka, .desc-truck, .desc-posta{
+    font-size: 18px;
+line-height: 22px;
+color: #333333;
+font-weight: 400;
+text-align: center;
+margin-top: 10px;
+}
+
+.image-kosik{
+    margin-left: 20px;
+    margin-bottom: 28px;
+height: 35px;
+}
+
+.image-kreditka{
+margin-left: 63px;
+margin-bottom: 23px;
+}
+
+.image-truck{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.image-posta{
+    margin-left: 50px;
+    margin-bottom: 23px;
+}
+
+.main-people-text{
+    font-size: 30px;
+line-height: 27px;
+color: #333333;
+font-weight: bold;
+text-align: center;
+margin-top: 88px;
+margin-bottom: 47px;
+font-family: Tahoma;
+}
+
+
+.people-wrap{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.people-item{
+    width:25%;
+    margin-bottom: 24px;
+}
+
